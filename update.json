@@ -1,7 +1,7 @@
 {
-  "versionCode": 14,
-  "versionName": "0.10.1",
+  "versionCode": 15,
+  "versionName": "0.11.0",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "982afe18e4bcaf77584b5e17dfb7847b7f4f94b46c8e2977ebdaa9e9ea95fad9",
+  "sha256": "8687ccc75ad4dba13569bc062e74d9657f57ad330d424ffc938ed4dcc2daadab",
   "notes": "搜索和时间线现在会直接打开具体记录，不再先进入分类列表再点一次；检查、治疗、药品、症状、体温、问诊、费用和时间线记录都支持直达。搜索摘要也不再显示内部图片标记。"
 }
