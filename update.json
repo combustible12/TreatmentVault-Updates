@@ -1,7 +1,7 @@
 {
-  "versionCode": 24,
-  "versionName": "0.15.1",
+  "versionCode": 25,
+  "versionName": "0.15.2",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "4e5f55e3e359a4593cde97f46b3b990f0293e2f4f5298b41ba6cf2437c620eac",
-  "notes": "清理旧专用列表页残留：检查报告、治疗、药品用品、症状、体温、问诊、费用等系统分类根入口统一进入当前文件夹页面，不再跳到旧的重复列表页；文件夹内移除“专用记录”旧入口。具体已有结构化记录的直达编辑路由继续保留，数据、图片和记录类型不受影响。"
+  "sha256": "550b259c68845da91839f4e281d2abb035b0c2d9ec109e9724ae398ef2ae075a",
+  "notes": "文件夹页面视觉压缩：子文件夹和笔记/记录卡片统一改为紧凑色块，减少上下留白、圆角、图标和标题字号，日期与数量信息降为小号辅助信息；长标题仍可两行，但普通标题不再被大卡片撑高。延续 0.15.1 的旧专用列表页清理与 0.15.0 的内容可靠性修复。"
 }
