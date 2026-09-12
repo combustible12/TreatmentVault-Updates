@@ -1,7 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "0.9.0",
+  "versionCode": 11,
+  "versionName": "0.9.1",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "1f11c38d6ec38ad1552f2b2283917ce7c01876aced50ab76e9c4b1c6bcb83561",
-  "notes": "暖米色浅色主题；检查、治疗、药品用品、症状、体温、问诊、费用和普通笔记都可重新编辑并添加图片；图片跟随备份恢复；侧栏分类可完整滚动。"
+  "sha256": "047713f13d2d747c5d0184e2e429c2357fbe6f5eac211809e373ac4658f85daa",
+  "notes": "首页和侧栏的分类标题旁可直接新建类目；支持创建顶级类目或选择上级类目，创建后立即显示并参与智能录入分类。"
 }
