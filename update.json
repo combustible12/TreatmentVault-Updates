@@ -1,7 +1,7 @@
 {
-  "versionCode": 27,
-  "versionName": "0.16.0",
+  "versionCode": 28,
+  "versionName": "0.16.1",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "0b7faa54bbce01f000e44d482fc68975cc679f3d8c145e0de46fd3754d1f3cba",
-  "notes": "新版记录管理：一条记录可同时归属多个文件夹，长按可查看全部归属和完整路径并直接管理；全局普通/待办显示类型，未完成待办高亮、完成后变灰但保留；首页搜索把分类结果置顶；长图点击后使用高清原图查看并支持缩放；正文中的 http/https 链接会自动识别并可直接打开。数据库从 0.15.3 平滑迁移，旧归属和旧备份兼容。"
+  "sha256": "302a5f810cc898777bae89a53553ebdc959ee277b49ebac6275b65e8809882db",
+  "notes": "记录色块图片缩略图：正文含图片时，首页置顶/最近/搜索、全部记录以及文件夹内记录会自动显示第一张图片的小缩略图；无图记录保持原布局，不新增空白占位。缩略图仅用于快速识别，原图和正文顺序不变。"
 }
