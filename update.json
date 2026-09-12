@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "0.6.0",
+  "versionCode": 7,
+  "versionName": "0.7.0",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "414e34072cd36526bd97c6a6f2ee7b2b5bddba331d52116fa48c9c3afd817479",
-  "notes": "TreatmentVault 0.6.0 更新"
+  "sha256": "a8ce36326664dc1e09afb77841b17df6a069c3a6c8b8c737880980278a04143b",
+  "notes": "记录支持反复编辑和全屏笔记编辑；新增条目/宫格/详情视图与全局资料树。"
 }
