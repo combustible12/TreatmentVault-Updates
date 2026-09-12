@@ -1,7 +1,7 @@
 {
-  "versionCode": 11,
-  "versionName": "0.9.1",
+  "versionCode": 12,
+  "versionName": "0.9.2",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "047713f13d2d747c5d0184e2e429c2357fbe6f5eac211809e373ac4658f85daa",
-  "notes": "首页和侧栏的分类标题旁可直接新建类目；支持创建顶级类目或选择上级类目，创建后立即显示并参与智能录入分类。"
+  "sha256": "a41931142b025534e06edba4aa7a04c40e42d93b3f1ddd78e35bbeaf114db588",
+  "notes": "笔记基础重构：图片改为正文式大图预览，点击可全屏并双指缩放；检查报告改成标题+正文+图片为主，检查结构化字段全部收进选填；总时间轴自动汇总检查、治疗、症状、体温、问诊、费用和普通笔记，并支持直接新增时间线记录。"
 }
