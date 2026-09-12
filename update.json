@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "0.3.0",
+  "versionCode": 4,
+  "versionName": "0.4.0",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "7c96fbd69fe168ddbc32924ac277513c7279c18d2411f7e02282882236978eaa",
-  "notes": "TreatmentVault 0.3.0 更新"
+  "sha256": "c66dc87de9f73f65c3d7c729406e6a2a61ff9dd7926c56a9e4466faa7eb2ac10",
+  "notes": "TreatmentVault 0.4.0 更新"
 }
