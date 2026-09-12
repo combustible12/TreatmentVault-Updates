@@ -1,7 +1,7 @@
 {
-  "versionCode": 13,
-  "versionName": "0.10.0",
+  "versionCode": 14,
+  "versionName": "0.10.1",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "dae1fd4928a68ad516409cf650f4a007d42312fefeb6b0d3bc500f31f0dca311",
+  "sha256": "0282e2b1a6d597c3983506d80e40e280ce34220a912079095e144a64c8966e76",
   "notes": "编辑器地基升级：文字块和图片块可任意穿插、上下调整，图片点开全屏并支持双指缩放。普通笔记、检查、治疗方案/记录、药品用品、症状、体温、医生问诊、费用和总时间线统一使用笔记式正文；结构化医疗字段降为次要/选填信息。"
 }
