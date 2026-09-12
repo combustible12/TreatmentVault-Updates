@@ -2,6 +2,6 @@
   "versionCode": 17,
   "versionName": "0.11.2",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "7aaa0bd9769acafd6a229effd22a2cc90bfdc5ac48c77583b768607a0e5afb21",
+  "sha256": "a53e63d78d341ee34cb64f1d39ccfe0853b8ae04c16d8cf1e2f017dabf620d13",
   "notes": "修复再次打开记录时正文看起来消失的问题：富文本编辑器现在会在数据库记录异步加载完成后正确恢复文字与图片区块，同时避免用户输入时被重复重置。此修复作用于普通笔记以及共用该编辑器的检查、治疗等记录；不改数据库结构。"
 }
