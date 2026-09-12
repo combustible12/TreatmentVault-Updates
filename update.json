@@ -1,7 +1,7 @@
 {
-  "versionCode": 15,
-  "versionName": "0.11.0",
+  "versionCode": 16,
+  "versionName": "0.11.1",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "05bf05196f47a1afe24a47a60edf61c4f46f7094ab1e088341a15bbe5bbee31d",
-  "notes": "底层记录体系重构：全部记录、最近记录和首页搜索统一包含普通笔记、检查、治疗、药品用品、症状、体温、问诊、费用和时间线；所有入口直接打开具体记录。新增全局置顶、收藏、归档和回收站，删除先进入回收站并可恢复，记录状态跟随完整备份恢复。"
+  "sha256": "90332666cc465e69099d2a506306113380e5fc21365459036d3656261072a1d8",
+  "notes": "类目管理修正：默认类目和自建类目现在都可编辑、改名、改图标、调整上级、排序、隐藏和删除；删除类目不会删除任何记录，自建类目中的笔记会安全迁移到待整理或其他可见类目；可一键恢复默认类目。默认类目改名后，页面标题以及全部记录、搜索中的分类名称和图标会同步更新。"
 }
