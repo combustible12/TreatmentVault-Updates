@@ -1,7 +1,7 @@
 {
-  "versionCode": 4,
-  "versionName": "0.4.0",
+  "versionCode": 5,
+  "versionName": "0.5.0",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "c66dc87de9f73f65c3d7c729406e6a2a61ff9dd7926c56a9e4466faa7eb2ac10",
-  "notes": "TreatmentVault 0.4.0 更新"
+  "sha256": "f0075b547b5df6346976af9abe9f13fb3ebe6f1418b6fa733df2c278e800a36c",
+  "notes": "修复更新包签名不一致；之后版本固定使用同一签名。"
 }
