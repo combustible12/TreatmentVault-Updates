@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "0.8.0",
+  "versionCode": 9,
+  "versionName": "0.8.1",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "9f9be605744b350e641b21854998087eab4b40b414673ef44e62a1f27ebf0818",
-  "notes": "笔记化首页：全局搜索、最近笔记、抽屉分类导航、全部笔记、新建/编辑笔记与分类移动；保留智能录入和医疗资料管理。"
+  "sha256": "c0b77bb3707ae804d600f34152345018d983391c5ee6c1339043f20329fd44c7",
+  "notes": "修复侧栏分类列表无法向上滑动的问题；分类数量不再被截断，底部管理入口固定可见。"
 }
