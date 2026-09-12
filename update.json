@@ -1,0 +1,7 @@
+{
+  "versionCode": 3,
+  "versionName": "0.3.0",
+  "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
+  "sha256": "b03358ab502971e29b347975e5fe4cd3c3581594769093408b7f75e3e88117b3",
+  "notes": "新增类目管理、自定义类目智能录入、类目与标签备份恢复，以及应用内检查更新。"
+}
