@@ -1,7 +1,7 @@
 {
-  "versionCode": 33,
-  "versionName": "0.21.0",
+  "versionCode": 34,
+  "versionName": "0.22.0",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "7bb32a6da76dcf27b1da4c2d72d0671c74202fd66eb98db6160fbe7b078c463e",
-  "notes": "链接显示优化：单独粘贴 http/https 链接时自动收成小链接图标，点击图标仍可直接打开；原始 URL 继续完整保存在正文中，因此搜索、备份和恢复不受影响。文字中夹带链接时继续保留原来的可点击打开方式，并提供编辑/收起入口。"
+  "sha256": "7f7fa47957dae530ede8b3ed7208062de638291aa5090ce3526cfdcb074e3584",
+  "notes": "图片查看器优化：高清图片打开后默认在屏幕中央适配显示，不再贴顶部；新增顺时针/逆时针90°旋转与方向重置，横版票据可直接转正查看；支持双指缩放、放大后拖动，双击或点击“适应”可恢复居中适配。"
 }
