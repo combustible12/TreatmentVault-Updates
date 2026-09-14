@@ -1,7 +1,7 @@
 {
-  "versionCode": 37,
-  "versionName": "0.23.1",
+  "versionCode": 38,
+  "versionName": "0.23.2",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "2c503c12ee8a5e27b0b1416762d65e54823192fad026e70c43181944869973ac",
-  "notes": "修复高清图片查看器底部操作面板仍会被屏幕底部遮挡的问题：面板现在使用 safeDrawing 底部安全区，并额外保留固定底部间距，避免部分全面屏设备或全屏 Dialog 下系统 inset 回报不足导致“适应/重置”被裁切。"
+  "sha256": "bb96f5e1b626f61397f004e6a874b261b5df263524bc668fb9e33279202adb3f",
+  "notes": "新增置顶专属颜色：普通置顶记录改为浅金橙底色并配套深色文字和金橙图钉，首页、搜索结果、文件夹和全部记录统一生效；若记录同时是待办，则继续保留待办高亮底色，仅用金橙图钉强调置顶状态。"
 }
