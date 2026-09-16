@@ -1,7 +1,7 @@
 {
-  "versionCode": 45,
-  "versionName": "0.29.0",
+  "versionCode": 46,
+  "versionName": "0.30.0",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "f484abb9be4ea9776cd62bd2e77e8a4ae320bbb105fa58db499fc199fefb7444",
+  "sha256": "4f5f55a0d2120baf57bd3786887077f40f88e4c80a83df141838542ae6b4e29c",
   "notes": "新增笔记媒体能力：全文搜索保持完整正文搜索；多图支持调整顺序并持久保存；点任意图片进入整篇笔记图库，可左右或上下滑动查看其他图片；已有图片可直接裁剪、画笔涂画、马赛克和添加文字；笔记新增创建时间并区分最后修改时间。数据库仅做向前兼容迁移，旧笔记用原更新时间回填创建时间，现有笔记、图片、类目、置顶与备份数据保持兼容。"
 }
