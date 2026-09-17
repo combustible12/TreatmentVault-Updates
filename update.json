@@ -1,7 +1,0 @@
-{
-  "versionCode": 49,
-  "versionName": "0.31.0",
-  "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "6f7b8bf3a2fc6912a37fdcd66f18067ef0bdbe31c78c9335433459dcb409ed4a",
-  "notes": "首页快捷入口整合为一排图标，并新增直接进入批量管理的入口；全部记录支持全选、逐条勾选、批量移动、置顶、收藏、归档、移到回收站以及批量恢复；笔记编辑器新增空一行和空两行操作，按当前光标或选区插入后自动把焦点与光标移到新增空行之后。修复上一版首页组件缺失导致的构建失败。"
-}
