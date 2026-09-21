@@ -1,7 +1,7 @@
 {
-  "versionCode": 50,
-  "versionName": "0.31.1",
+  "versionCode": 51,
+  "versionName": "0.31.2",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "8fe84afcc02be9c633c2a1e3d115375dff04b356a15b46060824f6f00ad35912",
+  "sha256": "70e8668251338f74941dbc83ffd62f6e8f195554fa8b04f4194491ffb4413bd9",
   "notes": "修复图片进入编辑模式后工具按钮被系统导航区域遮挡的问题。编辑器改为固定顶部操作栏和固定底部工具栏，并按系统安全区定位；裁剪、画笔、马赛克、文字四个按钮等宽显示，避免不同屏幕尺寸下被挤出画面。"
 }
