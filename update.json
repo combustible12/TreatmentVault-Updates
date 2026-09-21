@@ -1,7 +1,7 @@
 {
-  "versionCode": 53,
-  "versionName": "0.31.4",
+  "versionCode": 54,
+  "versionName": "0.31.5",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "93d889582d51060415fd4838de4fe1c764e341315f0c2dd46c4f8e2962b2cfed",
-  "notes": "修复图片编辑器在图片查看器上方以第二个全屏 Dialog 打开时，部分荣耀/全面屏设备会只显示图片而把编辑工具栏遮掉的问题。编辑模式现在与图片查看器共用同一个全屏 Dialog，在同一窗口内切换；顶部始终显示取消、撤销、重做、重置、保存以及裁剪、画笔、马赛克、文字工具。"
+  "sha256": "c3c8388ba64666edeb0e044da576d3a64ecd9dfc821cecd66df5203ba0e7e2ac",
+  "notes": "再次修复荣耀等全面屏设备进入图片编辑后只看到画布、顶部编辑工具消失的问题。编辑页恢复为已在该设备验证能正常显示顶部栏的 Scaffold topBar 结构，并把取消、撤销、重做、重置、保存、裁剪、画笔、马赛克、文字全部放在顶部；图片画布严格布局在 topBar 下方。"
 }
