@@ -1,7 +1,7 @@
 {
-  "versionCode": 52,
-  "versionName": "0.31.3",
+  "versionCode": 53,
+  "versionName": "0.31.4",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "1b2b0ac4b01ad5a8add144a52d5d13df2f811e0e15b38cc2d1b7ff355ceceff5",
-  "notes": "修复图片编辑页底部工具栏在部分全面屏设备上仍被裁出屏幕的问题：编辑工具改到顶部固定区域，不再依赖底部导航栏定位；新增撤销与重做，支持画笔、马赛克、裁剪和文字操作的历史回退/恢复；保留取消、重置、保存以及原图片浏览功能。"
+  "sha256": "93d889582d51060415fd4838de4fe1c764e341315f0c2dd46c4f8e2962b2cfed",
+  "notes": "修复图片编辑器在图片查看器上方以第二个全屏 Dialog 打开时，部分荣耀/全面屏设备会只显示图片而把编辑工具栏遮掉的问题。编辑模式现在与图片查看器共用同一个全屏 Dialog，在同一窗口内切换；顶部始终显示取消、撤销、重做、重置、保存以及裁剪、画笔、马赛克、文字工具。"
 }
