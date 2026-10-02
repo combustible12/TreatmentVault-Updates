@@ -1,7 +1,7 @@
 {
-  "versionCode": 73,
-  "versionName": "0.33.4",
+  "versionCode": 74,
+  "versionName": "0.33.5",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "d1219ec0a59ba16fdc07c4e242cdbabd4f34a0450cd3b9b821c524bd881d5d0e",
+  "sha256": "4742a1c741a8d6f6c6079b96b67ada81d46728e5a3e318f3d7b75948186596d0",
   "notes": "简化记录页添加图片流程：点击添加图片后直接打开系统图片选择器，去掉多余的“图库”二级菜单。"
 }
