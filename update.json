@@ -1,7 +1,7 @@
 {
-  "versionCode": 76,
-  "versionName": "0.33.7",
+  "versionCode": 77,
+  "versionName": "0.33.8",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "b25581f9ca6380ffa64422556c530fb6306bff45603c048b79b3a7be35b3d15f",
-  "notes": "修复录音悬浮球卡在顶部：限制拖动边界，自动纠正越界位置，并新增重置悬浮球位置按钮。"
+  "sha256": "f5d50f2c803f7a1347e6c7aa032683674231ada94f580a9365859110d11d98ae",
+  "notes": "新增录音重命名：列表与宫格均可修改名称，保留原音频、时间标记和录音日期。"
 }
