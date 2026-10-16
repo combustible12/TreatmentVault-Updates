@@ -1,7 +1,7 @@
 {
-  "versionCode": 75,
-  "versionName": "0.33.6",
+  "versionCode": 76,
+  "versionName": "0.33.7",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "c26a62a937610c827531a8ef4dc776b080c494cbfaf0978406acc88a2b023331",
-  "notes": "简化记录页添加图片流程：点击添加图片后直接打开系统图片选择器，去掉多余的“图库”二级菜单。"
+  "sha256": "b25581f9ca6380ffa64422556c530fb6306bff45603c048b79b3a7be35b3d15f",
+  "notes": "修复录音悬浮球卡在顶部：限制拖动边界，自动纠正越界位置，并新增重置悬浮球位置按钮。"
 }
