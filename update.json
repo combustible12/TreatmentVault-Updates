@@ -1,7 +1,7 @@
 {
-  "versionCode": 77,
-  "versionName": "0.33.8",
+  "versionCode": 78,
+  "versionName": "0.33.9",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "f5d50f2c803f7a1347e6c7aa032683674231ada94f580a9365859110d11d98ae",
-  "notes": "新增录音重命名：列表与宫格均可修改名称，保留原音频、时间标记和录音日期。"
+  "sha256": "2d7a9a0aae3a23ceca4d0855be07e46c9268feaf8252652c3131d5ba6985900f",
+  "notes": "统一记录详情为全屏弹窗：关闭后保留搜索、筛选和原列表滚动位置，不再跳回顶部。"
 }
