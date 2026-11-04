@@ -1,7 +1,7 @@
 {
-  "versionCode": 79,
-  "versionName": "0.34.0",
+  "versionCode": 80,
+  "versionName": "0.35.0",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "6f3fde332258a63c2e1e5ade0e9a3d52a1ffc0f15dd65e0320e0f3f855043625",
-  "notes": "精简操作流程：检查更新改为一次点击完成；具体记录关闭后直接返回来源；首页搜索支持边缘返回退出搜索。"
+  "sha256": "ea3d63e0d36274f4ed8395ab58b856c490bc0523f0a8cecb3575e073d4bd65c0",
+  "notes": "新增全局搜索与录音名称/标记搜索；增加录音标记筛选并保持编辑后列表位置；统一白底、浅灰模块和无描边纯色 UI。"
 }
