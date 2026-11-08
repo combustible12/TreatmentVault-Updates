@@ -1,3 +1,3 @@
-# TreatmentVault Updates
+# HealthTrend 更新
 
-Public update channel for the TreatmentVault Android app. This repository contains only update metadata and the latest signed APK; application source code remains private.
+HealthTrend 正式签名安装包与 update.json。手机通过应用内的一键更新检查、下载并校验新版。

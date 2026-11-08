@@ -1,7 +1,0 @@
-{
-  "versionCode": 81,
-  "versionName": "0.35.1",
-  "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "84b3cf8e837e7be8fdb3e7e37ef27900ac06a3eb97b8aa8d73aa6107bdf3afed",
-  "notes": "统一页面为白底、模块和卡片为 #F5F5F5；选中筛选改为 #E3E3E3 深灰字；移除近黑按钮，悬浮球开关改为中灰开启态。"
-}
