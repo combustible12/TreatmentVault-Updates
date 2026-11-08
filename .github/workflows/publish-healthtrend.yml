@@ -1,0 +1,49 @@
+name: Publish signed HealthTrend APK
+on:
+  push:
+    branches: [healthtrend]
+    paths: [publish.json]
+permissions:
+  contents: write
+concurrency:
+  group: healthtrend-update-branch
+  cancel-in-progress: false
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and publish the exact release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          code=$(jq -er '.versionCode' publish.json)
+          name=$(jq -er '.versionName' publish.json)
+          digest=$(jq -er '.sha256' publish.json)
+          [[ "$code" =~ ^[0-9]{10}$ && "$name" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ && "$digest" =~ ^[a-f0-9]{64}$ ]]
+          gh release download "v$code" --repo combustible12/HealthTrend --pattern HealthTrend.apk --dir "$RUNNER_TEMP"
+          apk="HealthTrend-$code.apk"
+          cp "$RUNNER_TEMP/HealthTrend.apk" "$apk"
+          echo "$digest  $apk" | sha256sum --check
+          build_tools=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -1)
+          "$build_tools/apksigner" verify --print-certs "$apk" > "$RUNNER_TEMP/cert.txt"
+          grep -Fx 'Signer #1 certificate SHA-256 digest: 5acccb7b281fbe2878ff8e62b57e4a1149c82bcf40e3c0b36d8e709c9da95628' "$RUNNER_TEMP/cert.txt"
+          "$build_tools/aapt" dump badging "$apk" > "$RUNNER_TEMP/badging.txt"
+          grep -F "package: name='com.combustible12.healthtrend' versionCode='$code' versionName='$name'" "$RUNNER_TEMP/badging.txt"
+          if [[ -f update.json ]]; then
+            current=$(jq -er '.versionCode' update.json)
+            (( code >= current ))
+            if (( code == current )); then [[ $(jq -r '.sha256' update.json) == "$digest" ]]; fi
+          fi
+          jq -n --arg name "HealthTrend $name" --argjson versionCode "$code" --arg sha256 "$digest" \
+            --arg url "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/healthtrend/$apk" \
+            '{name:$name,versionCode:$versionCode,sha256:$sha256,url:$url}' > update.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "$apk" update.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish HealthTrend $name"
+            git push origin HEAD:healthtrend
+          fi
