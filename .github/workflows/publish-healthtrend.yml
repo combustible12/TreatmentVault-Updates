@@ -23,9 +23,11 @@ jobs:
           name=$(jq -er '.versionName' publish.json)
           digest=$(jq -er '.sha256' publish.json)
           [[ "$code" =~ ^[0-9]{10}$ && "$name" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ && "$digest" =~ ^[a-f0-9]{64}$ ]]
-          gh release download "v$code" --repo combustible12/HealthTrend --pattern HealthTrend.apk --dir "$RUNNER_TEMP"
           apk="HealthTrend-$code.apk"
-          cp "$RUNNER_TEMP/HealthTrend.apk" "$apk"
+          if [[ ! -f "$apk" ]]; then
+            gh release download "healthtrend-v$code" --repo "$GITHUB_REPOSITORY" --pattern HealthTrend.apk --dir "$RUNNER_TEMP"
+            cp "$RUNNER_TEMP/HealthTrend.apk" "$apk"
+          fi
           echo "$digest  $apk" | sha256sum --check
           build_tools=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -1)
           "$build_tools/apksigner" verify --verbose --print-certs-pem "$apk" | tee "$RUNNER_TEMP/certs.pem"
