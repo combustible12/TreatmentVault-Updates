@@ -2,7 +2,7 @@ name: Publish signed HealthTrend APK
 on:
   push:
     branches: [healthtrend]
-    paths: [publish.json]
+    paths: [publish.json, .github/workflows/publish-healthtrend.yml]
 permissions:
   contents: write
 concurrency:
@@ -28,8 +28,9 @@ jobs:
           cp "$RUNNER_TEMP/HealthTrend.apk" "$apk"
           echo "$digest  $apk" | sha256sum --check
           build_tools=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -1)
-          "$build_tools/apksigner" verify --print-certs "$apk" > "$RUNNER_TEMP/cert.txt"
-          grep -Fx 'Signer #1 certificate SHA-256 digest: 5acccb7b281fbe2878ff8e62b57e4a1149c82bcf40e3c0b36d8e709c9da95628' "$RUNNER_TEMP/cert.txt"
+          "$build_tools/apksigner" verify --verbose --print-certs-pem "$apk" | tee "$RUNNER_TEMP/certs.pem"
+          openssl x509 -in "$RUNNER_TEMP/certs.pem" -outform DER -out "$RUNNER_TEMP/signer.der"
+          echo "5acccb7b281fbe2878ff8e62b57e4a1149c82bcf40e3c0b36d8e709c9da95628  $RUNNER_TEMP/signer.der" | sha256sum --check
           "$build_tools/aapt" dump badging "$apk" > "$RUNNER_TEMP/badging.txt"
           grep -F "package: name='com.combustible12.healthtrend' versionCode='$code' versionName='$name'" "$RUNNER_TEMP/badging.txt"
           if [[ -f update.json ]]; then
