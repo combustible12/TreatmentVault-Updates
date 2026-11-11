@@ -1,7 +1,7 @@
 {
-  "versionCode": 81,
-  "versionName": "0.35.1",
+  "versionCode": 82,
+  "versionName": "0.35.2",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "84b3cf8e837e7be8fdb3e7e37ef27900ac06a3eb97b8aa8d73aa6107bdf3afed",
-  "notes": "统一页面为白底、模块和卡片为 #F5F5F5；选中筛选改为 #E3E3E3 深灰字；移除近黑按钮，悬浮球开关改为中灰开启态。"
+  "sha256": "2f0e9c9ba9036450ddcc18fe8cea7f13d6c2d5fdd002c08152d6d6b108e92d27",
+  "notes": "修复笔记及各类记录编辑时长文本被键盘遮挡、底部无法滚动的问题；智能录入支持整页滚动，普通页面统一处理键盘占位。"
 }
