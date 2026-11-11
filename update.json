@@ -1,7 +1,7 @@
 {
-  "versionCode": 82,
-  "versionName": "0.35.2",
+  "versionCode": 83,
+  "versionName": "0.35.3",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "2f0e9c9ba9036450ddcc18fe8cea7f13d6c2d5fdd002c08152d6d6b108e92d27",
-  "notes": "修复笔记及各类记录编辑时长文本被键盘遮挡、底部无法滚动的问题；智能录入支持整页滚动，普通页面统一处理键盘占位。"
+  "sha256": "0fe14c6375a542867ae97fc21e01fa14aaf3caf9c3571bea5baad4e2a74b8c84",
+  "notes": "修复已有笔记全屏编辑窗口高度计算错误，解决滑到底后添加标签仍被键盘遮挡的问题；同类记录编辑窗口统一修复。"
 }
