@@ -1,7 +1,0 @@
-{
-  "versionCode": 2026111303,
-  "versionName": "1.0.227",
-  "apkName": "HealthTrend-2026111303.apk",
-  "sha256": "171b72819ef5dbebcd48b5cd7b5abbbef2e88bb29a068481d392bc762e4e9112",
-  "notes": "完善图片导入的身份校验、单位换算、唯一名称显示与保存拦截；旧粘贴导入、词典和趋势链路保持隔离。"
-}
