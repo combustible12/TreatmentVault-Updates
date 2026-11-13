@@ -22,6 +22,7 @@ jobs:
           code=$(jq -er '.versionCode' publish.json)
           name=$(jq -er '.versionName' publish.json)
           digest=$(jq -er '.sha256' publish.json)
+          notes=$(jq -er '.notes' publish.json)
           [[ "$code" =~ ^[0-9]{10}$ && "$name" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ && "$digest" =~ ^[a-f0-9]{64}$ ]]
           apk="HealthTrend-$code.apk"
           if [[ ! -f "$apk" ]]; then
@@ -54,4 +55,7 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m "Publish HealthTrend $name"
             git push origin HEAD:healthtrend
+          fi
+          if ! gh release view "healthtrend-v$code" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create "healthtrend-v$code" "$apk" --repo "$GITHUB_REPOSITORY" --target healthtrend --title "HealthTrend $name" --notes "$notes"
           fi

@@ -1,5 +1,6 @@
 {
   "versionName": "1.0.225",
   "versionCode": 2026111301,
-  "sha256": "4a03f14404e1bbcad048ac9f852b23cfcc9804c4f0f7bd13e79e597bfcc8e74b"
+  "sha256": "4a03f14404e1bbcad048ac9f852b23cfcc9804c4f0f7bd13e79e597bfcc8e74b",
+  "notes": "新增独立的报告图片 OCR 导入与上下屏核对，保留原粘贴导入和趋势；图片左右切换收尾调整为 180 ms；核对页完整列出问题并可点击定位修改。"
 }
