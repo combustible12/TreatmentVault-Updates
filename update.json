@@ -1,7 +1,7 @@
 {
-  "versionCode": 86,
-  "versionName": "0.35.6",
+  "versionCode": 87,
+  "versionName": "0.35.7",
   "apkUrl": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/main/TreatmentVault-latest.apk",
-  "sha256": "77a6138f8e371173b95ddac8df500ac3092cb102254dffa8a62f48f9abcb0408",
-  "notes": "按确认的预览修正录音界面：细灰进度条、圆形滑块，去掉默认粗轨道、竖条滑块和末端圆点；统一紧凑卡片、加粗标题、灰色日期及展开区按钮和标记间距。保持原有播放、拖动、收起和图片批量分享功能。"
+  "sha256": "e2733f3b85a6561052d610f33099657238f9169a6821a090f9df17f19fcce9ed",
+  "notes": "录音标题和标记名称点击后直接原位编辑、自动保存，移除重命名中转弹窗；常驻悬浮球、说明、重置和开关改为紧凑一行，去掉普通开关状态文字及多余空白；保留录音播放、进度条与图片批量分享。"
 }
