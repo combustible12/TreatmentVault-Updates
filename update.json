@@ -1,7 +1,6 @@
 {
-  "name": "HealthTrend 1.0.227",
-  "versionCode": 2026111303,
-  "sha256": "171b72819ef5dbebcd48b5cd7b5abbbef2e88bb29a068481d392bc762e4e9112",
-  "url": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/healthtrend/HealthTrend-2026111303.apk",
-  "notes": "完善图片导入的身份校验、单位换算、唯一名称显示与保存拦截；旧粘贴导入、词典和趋势链路保持隔离。"
+  "name": "HealthTrend 1.0.236",
+  "versionCode": 2026111801,
+  "sha256": "ca05a81638b766be967b44cadf18fef50be7256646bbfd1c960f715e81b7f1bd",
+  "url": "https://raw.githubusercontent.com/combustible12/TreatmentVault-Updates/healthtrend/HealthTrend-2026111801.apk"
 }
